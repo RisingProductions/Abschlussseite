@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vielen Dank</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: #fff;
+            background-color: #000;
+            line-height: 1.6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            text-align: center;
+            padding: 20px;
+            max-width: 600px;
+        }
+
+        a {
+            color: #fff;
+            text-decoration: underline;
+        }
+
+        a:hover {
+            text-decoration: none;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 20px;
+            background-color: #fff;
+            color: #000;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+
+        .button:hover {
+            background-color: #ddd;
+        }
+
+        .social {
+            margin-top: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Vielen Dank für deine Zeit!</h1>
+        <p>Wir haben deine Informationen erhalten und eine Bestätigungs-E-Mail wurde an dich gesendet. In dieser E-Mail findest du alle relevanten Details.</p>
+        <p>Solltest du keine E-Mail erhalten haben, überprüfe deinen Spam-Ordner. Ansonsten melde dich per E-Mail an uns unter <a href="mailto:office@risingproductions.at">office@risingproductions.at</a>.</p>
+        <p>Falls du noch Fragen hast oder weitere Informationen benötigst, kannst du einfach auf die Bestätigungs-E-Mail antworten.</p>
+        <p>Wir freuen uns schon sehr auf's Wochenende und sehen uns dort!</p>
+        <p>Alles Liebe,<br>Das RP-Team</p>
+        <a href="https://www.risingproductions.at" class="button">Zurück zur Startseite</a>
+        <div class="social">
+            <p>Folge uns auf <a href="https://www.instagram.com/risingproductions.at/">Instagram</a></p>
+        </div>
+    </div>
+</body>
+</html>
